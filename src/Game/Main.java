@@ -7,6 +7,8 @@ import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.Insets;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 import javax.swing.BorderFactory;
@@ -70,6 +72,17 @@ public class Main extends JFrame {
     }
 
     private void showCharacterSelection() {
+
+        // Use List<GameCharacter> ADT with ArrayList implementation for character management
+        List<GameCharacter> characters = new ArrayList<>();
+
+        characters.add(new Warrior("Warrior"));
+        characters.add(new Mage("Mage"));
+        characters.add(new Archer("Archer"));
+        characters.add(new Paladin("Paladin"));
+        characters.add(new Assassin("Assassin"));
+        characters.add(new Necromancer("Necromancer"));
+        characters.add(new Berserker("Berserker"));
 
         JPanel panel = new JPanel();
         panel.setBackground(BACKGROUND);
