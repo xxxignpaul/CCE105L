@@ -1,0 +1,12 @@
+# Compiled output
+bin/
+*.class
+
+# Eclipse workspace metadata
+.metadata/
+.settings/org.eclipse.core.resources.prefs
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.log
