@@ -11,7 +11,7 @@ public class Perm_Comb {
 
     static Scanner input = new Scanner(System.in);
 
-    // Queue implementation
+    //Queue implementation
     static Queue<String> queue = new LinkedList<>();
 
     public static void main(String[] args) {
